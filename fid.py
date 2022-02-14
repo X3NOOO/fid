@@ -100,7 +100,7 @@ WARNING: FOLLOWING INFORMATION ARE FICTIONAL AND
     
 def main():
     # Parse flags, set default country="random"
-    parser = argparse.ArgumentParser(description="fid is a program to easily access basic information from Faker")
+    parser = argparse.ArgumentParser(description="fid is a program to easily access basic information from Faker.\nReleased under GNU GPL v3 by X3NO <X3NO@disroot.org> [https://X3NO.ct8.pl] [https://github.com/X3NOOO] at [https://github.com/X3NOOO/fid]")
     parser.add_argument("country", nargs='*', default="en_US", type=str, help="country that you want to have results from (default: en_US)")
     parser.add_argument("--debug", default=False, type=bool, help="enable debug logs")
     args = parser.parse_args()
