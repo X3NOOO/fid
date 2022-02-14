@@ -1,5 +1,21 @@
 #!/bin/python3
 
+# fid (https://github.com/X3NOOO/fid)
+# Copyright (C) 2022 X3NO <X3NO@disroot.org> [https://X3NO.ct8.pl] [https://github.com/X3NOOO]
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 # fid is a program to easily access basic information from Faker
 
 import logging
@@ -48,6 +64,10 @@ def generator(country):
     logging.debug(f"{password=}")
     
     whole = f'''
+WARNING: FOLLOWING INFORMATION ARE FICTIONAL AND
+         ANY RESEMBLANCE TO REAL PERSONS IS COINCIDENTAL
+         REMEMBER THAT IDENTITY THEFT IS A SERIOUS CRIME
+
     Personal
 ---------------
  first name : {first_name}
@@ -70,7 +90,11 @@ def generator(country):
  user agent : {user_agent}
         mac : {mac}
       login : {login}
-   password : {password}'''
+   password : {password}
+
+WARNING: FOLLOWING INFORMATION ARE FICTIONAL AND
+         ANY RESEMBLANCE TO REAL PERSONS IS COINCIDENTAL
+         REMEMBER THAT IDENTITY THEFT IS A SERIOUS CRIME'''
     print(whole)
     
     
