@@ -8,7 +8,7 @@ fid is a program to easily access basic information from python version of Faker
 2. `cd fid`
 3. `pip3 install -r requirements.txt`
 4. (as user) `cp ./fid.py $HOME/.local/bin/fid && chmod +x $HOME/.local/bin/fid && export PATH="$PATH:$HOME/.local/bin/`
-4. (as root) `cp ./fid.py /usr/local/bin && chmod 751 /usr/local/bin/fid`
+4. (as root) `cp ./fid.py /usr/local/bin && chmod 755 /usr/local/bin/fid`
 
 ## usage
 
